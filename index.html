@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.27.0/slimselect.min.css">
+</head>
+
+<body>
+    <select id="breed-select" class="breed-select">
+        <option value="">Select a breed</option>
+    </select>
+
+    <div id="cat-info">
+        <p><strong>Breed:</strong> <span id="breed"></span></p>
+        <p><strong>Description:</strong> <span id="description"></span></p>
+        <p><strong>Temperament:</strong> <span id="temperament"></span></p>
+        <img id="cat-image" src="placeholder.jpg" alt="Cat Image">
+    </div>
+
+    <p id="loader" class="loader">Loading...</p>
+    <p id="error" class="error">Error loading data. Please try again later.</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.27.0/slimselect.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="cat-api.js" type="module"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

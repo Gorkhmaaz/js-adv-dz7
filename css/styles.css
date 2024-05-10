@@ -1,0 +1,19 @@
+.loader {
+    display: none;
+  }
+
+  .error {
+    display: none;
+    color: red;
+  }
+
+  #cat-info {
+    display: none;
+    margin-top: 20px;
+  }
+
+  #cat-info img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
